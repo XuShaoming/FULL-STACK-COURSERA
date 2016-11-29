@@ -1,0 +1,67 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #99CCCC;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #FFCCCC;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {    /*下拉菜单选项*/
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+
+
+/** Main Content**/
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+.container h1{   /*Menu name*/
+  color:#000;
+}
+
+.text-tile{     /*main contents*/
+  height: 900px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  background-color: #FFCC99;
+  overflow: hidden;
+}
+
+.text-tile a{   /*back to the top*/
+  color: #99CCCC;
+}
+.text-tile a:hover{
+  text-decoration: none;
+}
+
+
