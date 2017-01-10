@@ -64,4 +64,39 @@ body {
   text-decoration: none;
 }
 
+/*#chicken{
+height: 900px;
+  overflow: hidden;
+}
+
+#beef{
+  height: 900px;
+  overflow: hidden;
+}
+
+#sushi{
+  height: 900px;
+  overflow: hidden;
+}
+
+#chicken{
+  height: 900px;
+  overflow: hidden;
+}
+
+#beef{
+  height: 900px;
+  overflow: hidden;
+}
+
+#sushi{
+  height: 900px;
+  overflow: hidden;
+  }*/
+
+
+/*把div的高度值给section，然后div自己高度值给100%，也就是父容器的高度*/
+
+
+
 
