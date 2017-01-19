@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Image Filter</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<h1>BUTTON WITH DIV PRACTICE</h1>
+		<div id="div1" class="orangeback"> here is div1 </div>
+		<div id="div2" class="fuchsiaback"> here is div2 </div>
+		<input type="BUTTON" onclick="sayHello()" value="Click Me!">
+		<input type="BUTTON" onclick="goHiking()" value="Go Hiking?">
+		<input type="BUTTON" onclick="changeColor()" value="Change color!">
+		<input type="BUTTON" onclick="changeText()" value="read different texts!">	
+		<input id = "button1" type="BUTTON" onclick="changeButton()" value="oh~oh~ change myself!">
+		<script type="text/javascript" src="script.js"></script>
+		<br>
+		<br>
+		<h1>CANVAS PRACTICE</h1>
+		<CANVAS id="canvas1" class="blueback"> Here is Canvas1</CANVAS> 
+		<CANVAS id="canvas2" class="fuchsiaback"> Here is Canvas2</CANVAS> 
+		<p>
+			<input type="BUTTON" onclick="doBlue()" value="Make blue">
+			<input type="BUTTON" onclick="doColor()" value="Make orange">
+		</p>
+
+		<h1> INPUTS AND EVENTS</h1>
+		<canvas id="can3"></canvas>
+		<p>
+			<input type="BUTTON" onclick="dolime()", value="Change Color">
+			<input type="color" value="#AAAAAA" id="clr" onchange="doColor2()">
+		</p>
+
+		<h1> Create a Slider</h1>
+		<canvas id="can4"></canvas>
+		<p>
+			<input type="range" min="10" max="100" value="10" id="sldr" oninput="dosquare()">
+		</p>
+
+	</body>
+</html>
